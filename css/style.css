@@ -551,7 +551,7 @@ body {
 /************************intro style start************************/
 .intro {
   min-height: 1120px;
-  background: url(/img/intro.jpg);
+  background: url("../img/intro.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 70%;
@@ -594,7 +594,7 @@ body {
 /************************help style start************************/
 .help {
   min-height: 879px;
-  background: url(/img/help-bg.jpg) no-repeat center;
+  background: url("../img/help-bg.jpg") no-repeat center;
   background-size: cover;
   padding-bottom: 184px;
 }
@@ -687,7 +687,7 @@ body {
 /************************process style start************************/
 .process {
   min-height: 1639px;
-  background: url(/img/process-bg.jpg) no-repeat center;
+  background: url("../img/process-bg.jpg") no-repeat center;
   background-size: cover;
   padding: 194px 0 184px 0;
 }
