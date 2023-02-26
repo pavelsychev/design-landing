@@ -12,25 +12,31 @@
   <!----------header start ---------->
    <div class="wrapper">
   <header class="header">
-      <div class="header__inner">
-      <a href="#!" class="logo">
+      <div id="header_scroll" class="header__inner">
+      <a href="/" class="logo">
         <img width="259px" height="61px" src="./img/icons/icons.svg#logo-head" class="header__logo" alt="logo">
       </a>
-      <div class="menu__burger">
+
+      <div class="menu__burger" id="btn_open">
         <span class="burger__line burger__line-first"></span>
         <span class="burger__line burger__line-second"></span>
         <span class="burger__line burger__line-third"></span>
       </div>
-        <nav class="menu">
+      
+        <nav class="menu" id="menu">
           <ul class="menu__list">
             <li class="menu__list-item">
-              <a  href="#home" class="menu__list-item-link">Home</a> 
+              <a href="#home" class="menu__list-item-link">Home</a> 
             </li>
             <li class="menu__list-item">
-              <a data-goto=".help" href="#!" class="menu__list-item-link js-scroll">Your benefits</a>
+<<<<<<< HEAD
+              <a href="#your benefits" class="menu__list-item-link">Your benefits</a>
+=======
+              <a href="#your benefits" href="#!" class="menu__list-item-link">Your benefits</a>
+>>>>>>> 8069ba5 (added background for fixed menu, added smooth scrolling and optimized burger menu)
             </li>
             <li class="menu__list-item">
-              <a href="#our process" class="menu__list-item-link">Our process</a>
+              <a href="#our process" class="menu__list-item-link" >Our process</a>
             </li>
             <li class="menu__list-item">
               <a href="#our works" class="menu__list-item-link">Our works</a>
@@ -41,14 +47,16 @@
             <li class="menu__list-item">
               <a href="#start a project" class="menu__list-item-link">Start a project</a>
             </li>
+
+            <div class="event-close menu__close">
+              <span class="event-close menu__close-line"></span>
+              <span class="event-close menu__close-line"></span>
+            </div>
           </ul>
-          <div class="menu__close">
-            <span class="menu__close-line"></span>
-            <span class="menu__close-line"></span>
-          </div>
+          
         </nav>
         
-        <a href="#!" class="btn btn-header">
+        <a href="#" class="btn btn-header">
           Get started
         </a>
 
